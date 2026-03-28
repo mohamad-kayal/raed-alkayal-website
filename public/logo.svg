@@ -1,0 +1,350 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 260" width="500" height="260">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0C068"/>
+      <stop offset="50%" style="stop-color:#C9A84C"/>
+      <stop offset="100%" style="stop-color:#A8893A"/>
+    </linearGradient>
+    <filter id="softShadow">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#C9A84C" flood-opacity="0.3"/>
+    </filter>
+    <!-- Dark mosaic background tiles -->
+    <pattern id="bgTiles" width="19" height="19" patternUnits="userSpaceOnUse" patternTransform="rotate(0.3)">
+      <rect width="19" height="19" fill="#0F0E0C"/>
+      <rect x="0.5" y="0.5" width="8.5" height="8.5" rx="0.4" fill="#1C1A16"/>
+      <rect x="10" y="0.5" width="8.5" height="8.5" rx="0.4" fill="#1E1C18"/>
+      <rect x="0.5" y="10" width="8.5" height="8.5" rx="0.4" fill="#1A1815"/>
+      <rect x="10" y="10" width="8.5" height="8.5" rx="0.4" fill="#1D1B17"/>
+      <line x1="1" y1="1" x2="4" y2="1" stroke="#2A2720" stroke-width="0.5" opacity="0.5"/>
+      <line x1="10.5" y1="1" x2="13.5" y2="1" stroke="#2A2720" stroke-width="0.5" opacity="0.4"/>
+      <line x1="1" y1="10.5" x2="4" y2="10.5" stroke="#2A2720" stroke-width="0.5" opacity="0.4"/>
+      <line x1="10.5" y1="10.5" x2="13.5" y2="10.5" stroke="#2A2720" stroke-width="0.5" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- ==================== DARK MOSAIC BACKGROUND ==================== -->
+  <rect width="500" height="260" fill="url(#bgTiles)" rx="4"/>
+
+  <!-- Gold dust specks -->
+  <g opacity="0.06">
+    <circle cx="45" cy="45" r="0.6" fill="#C9A84C"/><circle cx="120" cy="32" r="0.5" fill="#E0C068"/>
+    <circle cx="250" cy="55" r="0.7" fill="#C9A84C"/><circle cx="380" cy="38" r="0.5" fill="#E0C068"/>
+    <circle cx="460" cy="48" r="0.6" fill="#C9A84C"/><circle cx="80" cy="220" r="0.5" fill="#E0C068"/>
+    <circle cx="200" cy="215" r="0.6" fill="#C9A84C"/><circle cx="350" cy="225" r="0.7" fill="#E0C068"/>
+    <circle cx="430" cy="218" r="0.5" fill="#C9A84C"/>
+  </g>
+
+  <!-- ==================== TOP BORDER TESSERAE ==================== -->
+  <g>
+    <rect x="4" y="4" width="7.5" height="7.5" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4" y="4" width="7.5" height="1.2" rx="0.3" fill="#9E8035" opacity="0.4"/>
+    <rect x="13" y="4.2" width="7.3" height="7.3" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="13" y="4.2" width="7.3" height="1.1" rx="0.3" fill="#E0C068" opacity="0.35"/>
+    <rect x="21.8" y="3.8" width="7.6" height="7.6" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="30.9" y="4.1" width="7.4" height="7.4" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="30.9" y="4.1" width="7.4" height="1.1" rx="0.3" fill="#E8D08A" opacity="0.4"/>
+    <rect x="39.8" y="4" width="7.5" height="7.5" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="48.8" y="4.3" width="7.3" height="7.2" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="57.6" y="3.9" width="7.6" height="7.6" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="57.6" y="3.9" width="7.6" height="1.1" rx="0.3" fill="#F0E0A0" opacity="0.35"/>
+    <rect x="66.7" y="4.1" width="7.4" height="7.4" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="75.6" y="4" width="7.5" height="7.5" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="84.6" y="4.2" width="7.3" height="7.3" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="93.4" y="3.8" width="7.6" height="7.6" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="102.5" y="4.1" width="7.4" height="7.4" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="111.4" y="4" width="7.5" height="7.5" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="120.4" y="4.3" width="7.3" height="7.2" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="129.2" y="3.9" width="7.6" height="7.6" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="138.3" y="4.1" width="7.4" height="7.4" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="147.2" y="4" width="7.5" height="7.5" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="156.2" y="4.2" width="7.3" height="7.3" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="165" y="3.8" width="7.6" height="7.6" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="174.1" y="4.1" width="7.4" height="7.4" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="183" y="4" width="7.5" height="7.5" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="192" y="4.3" width="7.3" height="7.2" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="200.8" y="3.9" width="7.6" height="7.6" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="209.9" y="4.1" width="7.4" height="7.4" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="218.8" y="4" width="7.5" height="7.5" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="227.8" y="4.2" width="7.3" height="7.3" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="236.6" y="3.8" width="7.6" height="7.6" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="245.7" y="4.1" width="7.4" height="7.4" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="254.6" y="4" width="7.5" height="7.5" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="263.6" y="4.3" width="7.3" height="7.2" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="272.4" y="3.9" width="7.6" height="7.6" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="281.5" y="4.1" width="7.4" height="7.4" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="290.4" y="4" width="7.5" height="7.5" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="299.4" y="4.2" width="7.3" height="7.3" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="308.2" y="3.8" width="7.6" height="7.6" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="317.3" y="4.1" width="7.4" height="7.4" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="326.2" y="4" width="7.5" height="7.5" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="335.2" y="4.3" width="7.3" height="7.2" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="344" y="3.9" width="7.6" height="7.6" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="353.1" y="4.1" width="7.4" height="7.4" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="362" y="4" width="7.5" height="7.5" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="371" y="4.2" width="7.3" height="7.3" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="379.8" y="3.8" width="7.6" height="7.6" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="388.9" y="4.1" width="7.4" height="7.4" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="397.8" y="4" width="7.5" height="7.5" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="406.8" y="4.3" width="7.3" height="7.2" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="415.6" y="3.9" width="7.6" height="7.6" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="424.7" y="4.1" width="7.4" height="7.4" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="433.6" y="4" width="7.5" height="7.5" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="442.6" y="4.2" width="7.3" height="7.3" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="451.4" y="3.8" width="7.6" height="7.6" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="460.5" y="4.1" width="7.4" height="7.4" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="469.4" y="4" width="7.5" height="7.5" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="478.4" y="4.3" width="7.3" height="7.2" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="487.2" y="3.9" width="7.6" height="7.6" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+  </g>
+
+  <!-- ==================== BOTTOM BORDER TESSERAE ==================== -->
+  <g>
+    <rect x="4" y="248.5" width="7.5" height="7.5" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="13" y="248.3" width="7.3" height="7.3" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="21.8" y="248.7" width="7.6" height="7.6" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="30.9" y="248.4" width="7.4" height="7.4" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="39.8" y="248.5" width="7.5" height="7.5" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="48.8" y="248.2" width="7.3" height="7.3" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="57.6" y="248.6" width="7.6" height="7.6" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="66.7" y="248.4" width="7.4" height="7.4" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="75.6" y="248.5" width="7.5" height="7.5" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="84.6" y="248.3" width="7.3" height="7.3" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="93.4" y="248.7" width="7.6" height="7.6" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="102.5" y="248.4" width="7.4" height="7.4" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="111.4" y="248.5" width="7.5" height="7.5" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="120.4" y="248.2" width="7.3" height="7.3" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="129.2" y="248.6" width="7.6" height="7.6" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="138.3" y="248.4" width="7.4" height="7.4" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="147.2" y="248.5" width="7.5" height="7.5" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="156.2" y="248.3" width="7.3" height="7.3" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="165" y="248.7" width="7.6" height="7.6" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="174.1" y="248.4" width="7.4" height="7.4" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="183" y="248.5" width="7.5" height="7.5" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="192" y="248.2" width="7.3" height="7.3" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="200.8" y="248.6" width="7.6" height="7.6" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="209.9" y="248.4" width="7.4" height="7.4" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="218.8" y="248.5" width="7.5" height="7.5" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="227.8" y="248.3" width="7.3" height="7.3" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="236.6" y="248.7" width="7.6" height="7.6" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="245.7" y="248.4" width="7.4" height="7.4" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="254.6" y="248.5" width="7.5" height="7.5" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="263.6" y="248.2" width="7.3" height="7.3" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="272.4" y="248.6" width="7.6" height="7.6" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="281.5" y="248.4" width="7.4" height="7.4" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="290.4" y="248.5" width="7.5" height="7.5" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="299.4" y="248.3" width="7.3" height="7.3" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="308.2" y="248.7" width="7.6" height="7.6" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="317.3" y="248.4" width="7.4" height="7.4" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="326.2" y="248.5" width="7.5" height="7.5" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="335.2" y="248.2" width="7.3" height="7.3" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="344" y="248.6" width="7.6" height="7.6" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="353.1" y="248.4" width="7.4" height="7.4" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="362" y="248.5" width="7.5" height="7.5" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="371" y="248.3" width="7.3" height="7.3" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="379.8" y="248.7" width="7.6" height="7.6" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="388.9" y="248.4" width="7.4" height="7.4" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="397.8" y="248.5" width="7.5" height="7.5" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="406.8" y="248.2" width="7.3" height="7.3" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="415.6" y="248.6" width="7.6" height="7.6" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="424.7" y="248.4" width="7.4" height="7.4" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="433.6" y="248.5" width="7.5" height="7.5" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="442.6" y="248.3" width="7.3" height="7.3" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="451.4" y="248.7" width="7.6" height="7.6" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="460.5" y="248.4" width="7.4" height="7.4" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="469.4" y="248.5" width="7.5" height="7.5" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="478.4" y="248.2" width="7.3" height="7.3" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="487.2" y="248.6" width="7.6" height="7.6" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+  </g>
+
+  <!-- ==================== LEFT BORDER TESSERAE ==================== -->
+  <g>
+    <rect x="4" y="13" width="7.5" height="7.3" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="3.8" y="21.8" width="7.6" height="7.5" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4.1" y="30.8" width="7.4" height="7.4" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4" y="39.7" width="7.5" height="7.6" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4.2" y="48.8" width="7.3" height="7.3" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="3.9" y="57.6" width="7.6" height="7.5" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4.1" y="66.6" width="7.4" height="7.4" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4" y="75.5" width="7.5" height="7.6" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4.2" y="84.6" width="7.3" height="7.3" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="3.8" y="93.4" width="7.6" height="7.5" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4.1" y="102.4" width="7.4" height="7.4" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4" y="111.3" width="7.5" height="7.6" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4.2" y="120.4" width="7.3" height="7.3" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="3.9" y="129.2" width="7.6" height="7.5" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4.1" y="138.2" width="7.4" height="7.4" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4" y="147.1" width="7.5" height="7.6" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4.2" y="156.2" width="7.3" height="7.3" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="3.8" y="165" width="7.6" height="7.5" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4.1" y="174" width="7.4" height="7.4" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4" y="182.9" width="7.5" height="7.6" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4.2" y="192" width="7.3" height="7.3" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="3.9" y="200.8" width="7.6" height="7.5" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4.1" y="209.8" width="7.4" height="7.4" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4" y="218.7" width="7.5" height="7.6" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4.2" y="227.8" width="7.3" height="7.3" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="3.8" y="236.6" width="7.6" height="7.5" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="4.1" y="245.6" width="7.4" height="7.4" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+  </g>
+
+  <!-- ==================== RIGHT BORDER TESSERAE ==================== -->
+  <g>
+    <rect x="488.5" y="13" width="7.5" height="7.3" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.3" y="21.8" width="7.6" height="7.5" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.6" y="30.8" width="7.4" height="7.4" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.5" y="39.7" width="7.5" height="7.6" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.7" y="48.8" width="7.3" height="7.3" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.4" y="57.6" width="7.6" height="7.5" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.6" y="66.6" width="7.4" height="7.4" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.5" y="75.5" width="7.5" height="7.6" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.7" y="84.6" width="7.3" height="7.3" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.3" y="93.4" width="7.6" height="7.5" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.6" y="102.4" width="7.4" height="7.4" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.5" y="111.3" width="7.5" height="7.6" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.7" y="120.4" width="7.3" height="7.3" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.4" y="129.2" width="7.6" height="7.5" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.6" y="138.2" width="7.4" height="7.4" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.5" y="147.1" width="7.5" height="7.6" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.7" y="156.2" width="7.3" height="7.3" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.3" y="165" width="7.6" height="7.5" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.6" y="174" width="7.4" height="7.4" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.5" y="182.9" width="7.5" height="7.6" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.7" y="192" width="7.3" height="7.3" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.4" y="200.8" width="7.6" height="7.5" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.6" y="209.8" width="7.4" height="7.4" rx="0.5" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.5" y="218.7" width="7.5" height="7.6" rx="0.5" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.7" y="227.8" width="7.3" height="7.3" rx="0.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.3" y="236.6" width="7.6" height="7.5" rx="0.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.8"/>
+    <rect x="488.6" y="245.6" width="7.4" height="7.4" rx="0.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.8"/>
+  </g>
+
+  <!-- ==================== CENTRAL MOSAIC STAR ==================== -->
+  <g transform="translate(250, 80)" filter="url(#softShadow)">
+    <!-- Center diamond -->
+    <polygon points="0,-8 8,0 0,8 -8,0" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.8"/>
+    <!-- Inner ring of 8 trapezoids -->
+    <polygon points="0,-8 8,0 14,-10 6,-16" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="8,0 0,8 10,14 16,6" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="0,8 -8,0 -14,10 -6,16" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="-8,0 0,-8 -10,-14 -16,-6" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="0,-8 -8,0 -14,-10 -6,-16" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="8,0 0,-8 14,-10 16,-6" fill="#D4B55A" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="0,8 8,0 14,10 6,16" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="-8,0 0,8 -14,10 -16,6" fill="#D4B55A" stroke="#0F0E0C" stroke-width="0.7"/>
+    <!-- Star points -->
+    <polygon points="0,-28 6,-16 -6,-16" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.7"/>
+    <rect x="-1" y="-27" width="2" height="4" rx="0.2" fill="#E8D08A" opacity="0.3"/>
+    <polygon points="6,-16 14,-10 20,-20" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="14,-10 20,-20 28,0" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="16,-6 14,-10 28,0" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="28,0 16,6 14,10" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="16,6 14,10 20,20" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="6,16 14,10 20,20" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="0,28 6,16 -6,16" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.7"/>
+    <rect x="-1" y="23" width="2" height="4" rx="0.2" fill="#E8D08A" opacity="0.3"/>
+    <polygon points="-6,16 -14,10 -20,20" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="-14,10 -20,20 -28,0" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="-16,6 -14,10 -28,0" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="-28,0 -16,-6 -14,-10" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="-16,-6 -14,-10 -20,-20" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="-6,-16 -14,-10 -20,-20" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.7"/>
+    <!-- Outer fill kites -->
+    <polygon points="0,-28 10,-24 14,-10 6,-16" fill="#D4B55A" stroke="#0F0E0C" stroke-width="0.6"/>
+    <polygon points="0,-28 -10,-24 -14,-10 -6,-16" fill="#B89840" stroke="#0F0E0C" stroke-width="0.6"/>
+    <polygon points="28,0 24,10 14,10 16,6" fill="#D4B55A" stroke="#0F0E0C" stroke-width="0.6"/>
+    <polygon points="28,0 24,-10 14,-10 16,-6" fill="#B89840" stroke="#0F0E0C" stroke-width="0.6"/>
+    <polygon points="0,28 10,24 14,10 6,16" fill="#B89840" stroke="#0F0E0C" stroke-width="0.6"/>
+    <polygon points="0,28 -10,24 -14,10 -6,16" fill="#D4B55A" stroke="#0F0E0C" stroke-width="0.6"/>
+    <polygon points="-28,0 -24,10 -14,10 -16,6" fill="#B89840" stroke="#0F0E0C" stroke-width="0.6"/>
+    <polygon points="-28,0 -24,-10 -14,-10 -16,-6" fill="#D4B55A" stroke="#0F0E0C" stroke-width="0.6"/>
+    <!-- Corner accent triangles -->
+    <polygon points="10,-24 20,-20 24,-10" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.5"/>
+    <polygon points="-10,-24 -20,-20 -24,-10" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.5"/>
+    <polygon points="24,10 20,20 10,24" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.5"/>
+    <polygon points="-24,10 -20,20 -10,24" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.5"/>
+    <!-- Highlights -->
+    <circle cx="0" cy="0" r="2" fill="#F5F0E8" opacity="0.15"/>
+    <circle cx="0" cy="-20" r="1" fill="#F5F0E8" opacity="0.12"/>
+    <circle cx="20" cy="0" r="1" fill="#F5F0E8" opacity="0.12"/>
+    <circle cx="0" cy="20" r="1" fill="#F5F0E8" opacity="0.12"/>
+    <circle cx="-20" cy="0" r="1" fill="#F5F0E8" opacity="0.12"/>
+  </g>
+
+  <!-- ==================== SIDE DIAMOND MOTIFS ==================== -->
+  <g transform="translate(100, 80)">
+    <polygon points="0,-8 6,0 0,8 -6,0" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="0,-8 3,-4 0,0 -3,-4" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.5"/>
+    <polygon points="0,0 3,4 0,8 -3,4" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.5"/>
+    <rect x="-10" y="-3.5" width="3.5" height="3.5" rx="0.3" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.5" transform="rotate(45,-8.25,-1.75)"/>
+    <rect x="6.5" y="-3.5" width="3.5" height="3.5" rx="0.3" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.5" transform="rotate(45,8.25,-1.75)"/>
+  </g>
+  <g transform="translate(400, 80)">
+    <polygon points="0,-8 6,0 0,8 -6,0" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.7"/>
+    <polygon points="0,-8 3,-4 0,0 -3,-4" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.5"/>
+    <polygon points="0,0 3,4 0,8 -3,4" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.5"/>
+    <rect x="-10" y="-3.5" width="3.5" height="3.5" rx="0.3" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.5" transform="rotate(45,-8.25,-1.75)"/>
+    <rect x="6.5" y="-3.5" width="3.5" height="3.5" rx="0.3" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.5" transform="rotate(45,8.25,-1.75)"/>
+  </g>
+
+  <!-- ==================== MOSAIC DIVIDER ABOVE TEXT ==================== -->
+  <g>
+    <rect x="80" y="118" width="5.5" height="4" rx="0.4" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.6"/>
+    <rect x="87" y="118.2" width="5.3" height="3.8" rx="0.4" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.6"/>
+    <rect x="93.8" y="117.8" width="5.5" height="4.2" rx="0.4" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.6"/>
+    <rect x="100.8" y="118.1" width="5.4" height="3.9" rx="0.4" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.6"/>
+    <rect x="107.7" y="118" width="5.5" height="4" rx="0.4" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.6"/>
+    <polygon points="119,120 123,117.5 127,120 123,122.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.5"/>
+    <line x1="132" y1="120" x2="155" y2="120" stroke="#C9A84C" stroke-width="0.8" stroke-dasharray="3,2"/>
+    <polygon points="160,120 164,117.5 168,120 164,122.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.5"/>
+    <line x1="173" y1="120" x2="196" y2="120" stroke="#A8893A" stroke-width="0.8" stroke-dasharray="3,2"/>
+    <polygon points="201,120 205,117.5 209,120 205,122.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.5"/>
+    <line x1="214" y1="120" x2="237" y2="120" stroke="#C9A84C" stroke-width="0.8" stroke-dasharray="3,2"/>
+    <polygon points="242,120 246,117.5 250,120 246,122.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.5"/>
+    <line x1="255" y1="120" x2="278" y2="120" stroke="#A8893A" stroke-width="0.8" stroke-dasharray="3,2"/>
+    <polygon points="283,120 287,117.5 291,120 287,122.5" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.5"/>
+    <line x1="296" y1="120" x2="319" y2="120" stroke="#C9A84C" stroke-width="0.8" stroke-dasharray="3,2"/>
+    <polygon points="324,120 328,117.5 332,120 328,122.5" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.5"/>
+    <line x1="337" y1="120" x2="360" y2="120" stroke="#A8893A" stroke-width="0.8" stroke-dasharray="3,2"/>
+    <polygon points="365,120 369,117.5 373,120 369,122.5" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.5"/>
+    <rect x="380" y="118" width="5.5" height="4" rx="0.4" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.6"/>
+    <rect x="387" y="118.2" width="5.3" height="3.8" rx="0.4" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.6"/>
+    <rect x="393.8" y="117.8" width="5.5" height="4.2" rx="0.4" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.6"/>
+    <rect x="400.8" y="118.1" width="5.4" height="3.9" rx="0.4" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.6"/>
+    <rect x="407.7" y="118" width="5.5" height="4" rx="0.4" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.6"/>
+  </g>
+
+  <!-- ==================== TEXT ==================== -->
+  <text x="250" y="155" text-anchor="middle" font-family="'Tajawal', 'Cairo', 'Arial', sans-serif"
+        font-size="38" font-weight="700" fill="#F5F0E8" letter-spacing="2" filter="url(#softShadow)">
+    رائد الكيال
+  </text>
+
+  <text x="250" y="185" text-anchor="middle" font-family="'Tajawal', 'Cairo', 'Arial', sans-serif"
+        font-size="18" font-weight="400" fill="url(#goldGrad)" letter-spacing="3">
+    للديكور والنجارة
+  </text>
+
+  <text x="250" y="208" text-anchor="middle" font-family="'Inter', 'Poppins', 'Arial', sans-serif"
+        font-size="9" font-weight="400" fill="#A0A0A0" letter-spacing="5">
+    DECOR &amp; CARPENTRY
+  </text>
+
+  <!-- ==================== BOTTOM MOSAIC DIVIDER ==================== -->
+  <g>
+    <rect x="130" y="216" width="5" height="3.5" rx="0.4" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.5"/>
+    <rect x="136.5" y="216.2" width="4.8" height="3.3" rx="0.4" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.5"/>
+    <rect x="142.8" y="215.8" width="5.2" height="3.7" rx="0.4" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.5"/>
+    <polygon points="153.5,217.75 157,215.5 160.5,217.75 157,220" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.5"/>
+    <line x1="166" y1="217.75" x2="190" y2="217.75" stroke="#C9A84C" stroke-width="0.7" stroke-dasharray="2.5,1.8"/>
+    <polygon points="195,217.75 198.5,215.5 202,217.75 198.5,220" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.5"/>
+    <line x1="207" y1="217.75" x2="231" y2="217.75" stroke="#A8893A" stroke-width="0.7" stroke-dasharray="2.5,1.8"/>
+    <polygon points="236,217.75 239.5,215.5 243,217.75 239.5,220" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.5"/>
+    <line x1="248" y1="217.75" x2="272" y2="217.75" stroke="#C9A84C" stroke-width="0.7" stroke-dasharray="2.5,1.8"/>
+    <polygon points="277,217.75 280.5,215.5 284,217.75 280.5,220" fill="#8A6F2E" stroke="#0F0E0C" stroke-width="0.5"/>
+    <line x1="289" y1="217.75" x2="313" y2="217.75" stroke="#A8893A" stroke-width="0.7" stroke-dasharray="2.5,1.8"/>
+    <polygon points="318,217.75 321.5,215.5 325,217.75 321.5,220" fill="#E8D08A" stroke="#0F0E0C" stroke-width="0.5"/>
+    <rect x="332" y="216" width="5.2" height="3.7" rx="0.4" fill="#A8893A" stroke="#0F0E0C" stroke-width="0.5"/>
+    <rect x="338.7" y="216.2" width="4.8" height="3.3" rx="0.4" fill="#C9A84C" stroke="#0F0E0C" stroke-width="0.5"/>
+    <rect x="345" y="215.8" width="5" height="3.5" rx="0.4" fill="#E0C068" stroke="#0F0E0C" stroke-width="0.5"/>
+  </g>
+</svg>
