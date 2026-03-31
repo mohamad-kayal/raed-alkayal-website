@@ -293,7 +293,7 @@ button {
 .hero__bg {
   position: absolute;
   inset: 0;
-  background-image: url('images/hero.jpg');
+  background-image: url('images/wall-paneling-carved-door.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -809,6 +809,29 @@ button {
 .lightbox__next:focus-visible {
   outline: 2px solid var(--gold);
   outline-offset: 3px;
+}
+
+/* ===== VIDEOS ===== */
+.videos__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.videos__item video {
+  width: 100%;
+  border-radius: 12px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--bg-card);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.videos__item video:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
 }
 
 /* ===== TESTIMONIALS ===== */

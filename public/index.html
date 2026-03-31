@@ -47,7 +47,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Cairo:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="preload" href="images/hero.jpg" as="image">
+  <link rel="preload" href="images/wall-paneling-carved-door.jpg" as="image">
 
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -65,6 +65,7 @@
         <li><a href="#services" class="navbar__link">خدماتنا</a></li>
         <li><a href="#process" class="navbar__link">كيف نعمل</a></li>
         <li><a href="#portfolio" class="navbar__link">أعمالنا</a></li>
+        <li><a href="#videos" class="navbar__link">فيديوهات</a></li>
         <li><a href="#testimonials" class="navbar__link">آراء العملاء</a></li>
         <li><a href="#contact" class="navbar__link">تواصل معنا</a></li>
       </ul>
@@ -101,7 +102,7 @@
   <section class="about section" id="about">
     <div class="container about__inner">
       <div class="about__image" data-animate="slide-right">
-        <img src="images/about.jpg" alt="حرفي يعمل على قطعة خشبية بإتقان" loading="lazy" width="600" height="400">
+        <img src="images/chairs-carved-classic.jpg" alt="كراسي خشبية منقوشة يدوياً من صنع ورشتنا" loading="lazy" width="600" height="400">
       </div>
       <div class="about__text" data-animate="slide-left">
         <h2 class="section__title">من نحن</h2>
@@ -152,7 +153,7 @@
 
         <div class="service-card" data-animate="fade-up" data-delay="0">
           <div class="service-card__image">
-            <img src="images/service-furniture.jpg" alt="أثاث منزلي خشبي فاخر" loading="lazy" width="600" height="300">
+            <img src="images/wardrobe-carved-classic.jpg" alt="خزانة ملابس خشبية بنقوش كلاسيكية" loading="lazy" width="600" height="300">
           </div>
           <div class="service-card__body">
             <div class="service-card__icon" aria-hidden="true">
@@ -166,7 +167,7 @@
 
         <div class="service-card" data-animate="fade-up" data-delay="1">
           <div class="service-card__image">
-            <img src="images/service-kitchen.jpg" alt="مطبخ عصري بتشطيبات خشبية" loading="lazy" width="600" height="300">
+            <img src="images/kitchen-counter-modern.jpg" alt="مطبخ عصري بتشطيبات خشبية" loading="lazy" width="600" height="300">
           </div>
           <div class="service-card__body">
             <div class="service-card__icon" aria-hidden="true">
@@ -180,7 +181,7 @@
 
         <div class="service-card" data-animate="fade-up" data-delay="2">
           <div class="service-card__image">
-            <img src="images/service-doors.jpg" alt="باب خشبي بتصميم كلاسيكي" loading="lazy" width="600" height="300">
+            <img src="images/door-entrance-grand.jpg" alt="باب مدخل خشبي فاخر بزجاج ملون" loading="lazy" width="600" height="300">
           </div>
           <div class="service-card__body">
             <div class="service-card__icon" aria-hidden="true">
@@ -194,7 +195,7 @@
 
         <div class="service-card" data-animate="fade-up" data-delay="3">
           <div class="service-card__image">
-            <img src="images/service-decor.jpg" alt="ديكورات خشبية أنيقة للجدران والأسقف" loading="lazy" width="600" height="300">
+            <img src="images/decor-wall-panel.jpg" alt="تكسية جدران خشبية داكنة أنيقة" loading="lazy" width="600" height="300">
           </div>
           <div class="service-card__body">
             <div class="service-card__icon" aria-hidden="true">
@@ -268,63 +269,141 @@
         <button class="portfolio__filter" data-filter="kitchen">مطابخ</button>
         <button class="portfolio__filter" data-filter="doors">أبواب</button>
         <button class="portfolio__filter" data-filter="decor">ديكورات</button>
+        <button class="portfolio__filter" data-filter="commercial">أعمال تجارية</button>
       </div>
 
       <div class="portfolio__grid" id="portfolioGrid">
-        <div class="portfolio__item" data-category="furniture" data-animate="fade-in">
-          <img src="images/portfolio-salon.jpg" alt="صالون خشبي فاخر" loading="lazy" width="600" height="400">
+
+        <!-- أبواب -->
+        <div class="portfolio__item" data-category="doors" data-animate="fade-in">
+          <img src="images/door-entrance-grand.jpg" alt="باب مدخل خشبي فاخر بزجاج ملون" loading="lazy" width="600" height="400">
           <div class="portfolio__overlay">
-            <span class="portfolio__label">صالون فاخر</span>
+            <span class="portfolio__label">مدخل خشبي فاخر</span>
           </div>
         </div>
+        <div class="portfolio__item" data-category="doors" data-animate="fade-in">
+          <img src="images/door-carved-arabesque.jpg" alt="باب خشبي منقوش بزخارف عربية" loading="lazy" width="600" height="400">
+          <div class="portfolio__overlay">
+            <span class="portfolio__label">باب منقوش بأرابيسك</span>
+          </div>
+        </div>
+        <div class="portfolio__item" data-category="doors" data-animate="fade-in">
+          <img src="images/door-classic-white.jpg" alt="باب خشبي كلاسيكي أبيض" loading="lazy" width="600" height="400">
+          <div class="portfolio__overlay">
+            <span class="portfolio__label">باب كلاسيكي أبيض</span>
+          </div>
+        </div>
+        <div class="portfolio__item" data-category="doors" data-animate="fade-in">
+          <img src="images/door-modern-glass.jpg" alt="باب عصري بزجاج مثلج" loading="lazy" width="600" height="400">
+          <div class="portfolio__overlay">
+            <span class="portfolio__label">باب عصري بزجاج</span>
+          </div>
+        </div>
+
+        <!-- ديكورات -->
+        <div class="portfolio__item" data-category="decor" data-animate="fade-in">
+          <img src="images/wall-paneling-carved-door.jpg" alt="تكسية جدران خشبية مع باب منقوش" loading="lazy" width="600" height="400">
+          <div class="portfolio__overlay">
+            <span class="portfolio__label">تكسية جدران وباب منقوش</span>
+          </div>
+        </div>
+        <div class="portfolio__item" data-category="decor" data-animate="fade-in">
+          <img src="images/decor-wall-panel.jpg" alt="ديكور تكسية جدران خشبية داكنة" loading="lazy" width="600" height="400">
+          <div class="portfolio__overlay">
+            <span class="portfolio__label">تكسية جدران خشبية</span>
+          </div>
+        </div>
+        <div class="portfolio__item" data-category="decor" data-animate="fade-in">
+          <img src="images/tv-unit-wall-mounted.jpg" alt="وحدة تلفزيون خشبية معلقة" loading="lazy" width="600" height="400">
+          <div class="portfolio__overlay">
+            <span class="portfolio__label">وحدة تلفزيون معلقة</span>
+          </div>
+        </div>
+        <div class="portfolio__item" data-category="decor" data-animate="fade-in">
+          <img src="images/seat-circular-led.jpg" alt="كرسي دائري مدمج مع إضاءة LED" loading="lazy" width="600" height="400">
+          <div class="portfolio__overlay">
+            <span class="portfolio__label">جلسة دائرية مع إضاءة</span>
+          </div>
+        </div>
+
+        <!-- مطابخ -->
         <div class="portfolio__item" data-category="kitchen" data-animate="fade-in">
-          <img src="images/portfolio-kitchen-modern.jpg" alt="مطبخ عصري" loading="lazy" width="600" height="400">
+          <img src="images/kitchen-counter-modern.jpg" alt="مطبخ عصري بتصميم حديث" loading="lazy" width="600" height="400">
           <div class="portfolio__overlay">
             <span class="portfolio__label">مطبخ عصري</span>
           </div>
         </div>
-        <div class="portfolio__item" data-category="doors" data-animate="fade-in">
-          <img src="images/service-doors.jpg" alt="باب خشبي كلاسيكي" loading="lazy" width="600" height="400">
+
+        <!-- أثاث -->
+        <div class="portfolio__item" data-category="furniture" data-animate="fade-in">
+          <img src="images/chairs-carved-classic.jpg" alt="كراسي خشبية كلاسيكية منقوشة" loading="lazy" width="600" height="400">
           <div class="portfolio__overlay">
-            <span class="portfolio__label">باب كلاسيكي</span>
-          </div>
-        </div>
-        <div class="portfolio__item" data-category="decor" data-animate="fade-in">
-          <img src="images/service-decor.jpg" alt="ديكور خشبي للجدران" loading="lazy" width="600" height="400">
-          <div class="portfolio__overlay">
-            <span class="portfolio__label">ديكور جداري</span>
+            <span class="portfolio__label">كراسي كلاسيكية منقوشة</span>
           </div>
         </div>
         <div class="portfolio__item" data-category="furniture" data-animate="fade-in">
-          <img src="images/portfolio-dining.jpg" alt="طاولة طعام خشبية" loading="lazy" width="600" height="400">
+          <img src="images/wardrobe-carved-classic.jpg" alt="خزانة ملابس خشبية بنقوش كلاسيكية" loading="lazy" width="600" height="400">
           <div class="portfolio__overlay">
-            <span class="portfolio__label">طاولة طعام</span>
-          </div>
-        </div>
-        <div class="portfolio__item" data-category="kitchen" data-animate="fade-in">
-          <img src="images/portfolio-kitchen-classic.jpg" alt="مطبخ كلاسيكي بخشب طبيعي" loading="lazy" width="600" height="400">
-          <div class="portfolio__overlay">
-            <span class="portfolio__label">مطبخ كلاسيكي</span>
-          </div>
-        </div>
-        <div class="portfolio__item" data-category="decor" data-animate="fade-in">
-          <img src="images/portfolio-ceiling.jpg" alt="سقف خشبي مزخرف" loading="lazy" width="600" height="400">
-          <div class="portfolio__overlay">
-            <span class="portfolio__label">سقف خشبي</span>
-          </div>
-        </div>
-        <div class="portfolio__item" data-category="decor" data-animate="fade-in">
-          <img src="images/portfolio-tvunit.jpg" alt="وحدة تلفزيون خشبية" loading="lazy" width="600" height="400">
-          <div class="portfolio__overlay">
-            <span class="portfolio__label">وحدة تلفزيون</span>
+            <span class="portfolio__label">خزانة ملابس كلاسيكية</span>
           </div>
         </div>
         <div class="portfolio__item" data-category="furniture" data-animate="fade-in">
-          <img src="images/portfolio-bedroom.jpg" alt="غرفة نوم خشبية فاخرة" loading="lazy" width="600" height="400">
+          <img src="images/wardrobe-sliding-mirror.jpg" alt="خزانة ملابس بأبواب سحب ومرآة" loading="lazy" width="600" height="400">
           <div class="portfolio__overlay">
-            <span class="portfolio__label">غرفة نوم</span>
+            <span class="portfolio__label">خزانة بأبواب سحب</span>
           </div>
         </div>
+        <div class="portfolio__item" data-category="furniture" data-animate="fade-in">
+          <img src="images/dresser-mirror-carved.jpg" alt="تسريحة غرفة نوم بمرآة منقوشة" loading="lazy" width="600" height="400">
+          <div class="portfolio__overlay">
+            <span class="portfolio__label">تسريحة بمرآة منقوشة</span>
+          </div>
+        </div>
+        <div class="portfolio__item" data-category="furniture" data-animate="fade-in">
+          <img src="images/bed-frame-wood.jpg" alt="سرير خشبي متين" loading="lazy" width="600" height="400">
+          <div class="portfolio__overlay">
+            <span class="portfolio__label">سرير خشبي</span>
+          </div>
+        </div>
+        <div class="portfolio__item" data-category="furniture" data-animate="fade-in">
+          <img src="images/sofa-kids-bunny.jpg" alt="أريكة أطفال بتصميم أرنب مرح" loading="lazy" width="600" height="400">
+          <div class="portfolio__overlay">
+            <span class="portfolio__label">أريكة أطفال</span>
+          </div>
+        </div>
+        <div class="portfolio__item" data-category="furniture" data-animate="fade-in">
+          <img src="images/pet-house-wood.jpg" alt="بيت حيوانات أليفة خشبي" loading="lazy" width="600" height="400">
+          <div class="portfolio__overlay">
+            <span class="portfolio__label">بيت خشبي للحيوانات</span>
+          </div>
+        </div>
+
+        <!-- أعمال تجارية -->
+        <div class="portfolio__item" data-category="commercial" data-animate="fade-in">
+          <img src="images/salon-interior-commercial.jpg" alt="تجهيز صالون تجميل بالكامل" loading="lazy" width="600" height="400">
+          <div class="portfolio__overlay">
+            <span class="portfolio__label">تجهيز صالون تجميل</span>
+          </div>
+        </div>
+        <div class="portfolio__item" data-category="commercial" data-animate="fade-in">
+          <img src="images/shop-shelves-perfume.jpg" alt="واجهة ورفوف محل عطور خشبية" loading="lazy" width="600" height="400">
+          <div class="portfolio__overlay">
+            <span class="portfolio__label">واجهة محل عطور</span>
+          </div>
+        </div>
+        <div class="portfolio__item" data-category="commercial" data-animate="fade-in">
+          <img src="images/counter-jewelry-shop.jpg" alt="واجهة محل مجوهرات خشبية" loading="lazy" width="600" height="400">
+          <div class="portfolio__overlay">
+            <span class="portfolio__label">واجهة محل مجوهرات</span>
+          </div>
+        </div>
+        <div class="portfolio__item" data-category="commercial" data-animate="fade-in">
+          <img src="images/display-shelf-commercial.jpg" alt="رفوف عرض تجارية" loading="lazy" width="600" height="400">
+          <div class="portfolio__overlay">
+            <span class="portfolio__label">رفوف عرض تجارية</span>
+          </div>
+        </div>
+
       </div>
 
       <div class="portfolio__cta">
@@ -348,6 +427,32 @@
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
     </button>
   </div>
+
+  <!-- ===== VIDEO SHOWCASE SECTION ===== -->
+  <section class="videos section" id="videos">
+    <div class="container">
+      <h2 class="section__title section__title--center">من داخل ورشتنا</h2>
+      <div class="section__title-line section__title-line--center"></div>
+      <p class="section__subtitle">شاهدوا كيف نصنع أعمالنا بإتقان وحرفية</p>
+      <div class="videos__grid">
+        <div class="videos__item" data-animate="fade-up" data-delay="0">
+          <video controls preload="metadata" playsinline poster="images/wall-paneling-carved-door.jpg">
+            <source src="images/video-workshop-1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="videos__item" data-animate="fade-up" data-delay="1">
+          <video controls preload="metadata" playsinline poster="images/door-entrance-grand.jpg">
+            <source src="images/video-workshop-2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="videos__item" data-animate="fade-up" data-delay="2">
+          <video controls preload="metadata" playsinline poster="images/chairs-carved-classic.jpg">
+            <source src="images/video-workshop-3.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- ===== TESTIMONIALS SECTION ===== -->
   <section class="testimonials section" id="testimonials">
